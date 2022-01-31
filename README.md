@@ -15,7 +15,7 @@ We've provided a flexible template to use as a starting point, but feel free to 
 
 Use the following Markdown template to create a professional README file:
 
-# <Your-Project-Title>
+# <Horiseon>
 
 ## Description
 
