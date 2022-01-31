@@ -1,35 +1,34 @@
 # Code Refactor Starter Code
-Use the following questions as a guide:
-
-What was your motivation?
-Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-What problem does it solve?
-What did you learn?
-What makes your project stand out?
-Your README might also describe some of the challenges you faced, as well as the features you plan to implement in the future. And if your project is deployed, make sure to include a link to the deployed application so people can see it in action!
-
-
-
-
-We've provided a flexible template to use as a starting point, but feel free to adapt your README file to suit your project's particular needs.
-
-Use the following Markdown template to create a professional README file:
 
 # <Horiseon>
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+Horiseon is a website designed to teach potential clients about what Horiseon does and how it manages to make clients' websites as effective on the web as possible. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-- What makes your project stand out?
+My job is to edit the CSS and HTML of Horiseon's website so that it better meets accessiblity standards. Thus, 
+
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+
+By accomplishing these goals, developers will be able to understand the code better, and the content will be more accesible to those with disabilities. Such considerations will allow for easier coding in the future, if new pages and content must be added, and it will increase the SEO of the website. 
+
+Before the edits were done, there were a lot of div elements that made the code unclear, and a lot of repetitive styles being used in CSS. Furthermore, one of the links in the navigation page was broken, and there were no alt descriptions for the images. 
+
+Through the project, I applied the lessons learned in module 1 on the importance of semantic elements within HTML. I figured out how to use classes in a way that minimizes the amount of code typed within CSS. I also reorganized elements so that they proceeded in a logical way that complimented the HTML layout without compromising any of the visual elements already in place. I also made extensive use of the comment system to tell the reader what changes I made, as well as to show where one section ends and another begins. The distinction between the two comment types can be seen through the use of All Caps. 
+
+Now, the website works even better than it used to, and can serve more easily as a template or something to grow from in the future. 
 
 ## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Usage](#usage)
