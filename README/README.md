@@ -1,6 +1,6 @@
 # Code Refactor Starter Code
 
-# <Horiseon>
+## <Horiseon>
 
 ## Description
 
@@ -9,15 +9,25 @@ Horiseon is a website designed to teach potential clients about what Horiseon do
 My job is to edit the CSS and HTML of Horiseon's website so that it better meets accessiblity standards. Thus, 
 
 GIVEN a webpage meets accessibility standards
+
 WHEN I view the source code
+
 THEN I find semantic HTML elements
+
 WHEN I view the structure of the HTML elements
+
 THEN I find that the elements follow a logical structure independent of styling and positioning
+
 WHEN I view the image elements
+
 THEN I find accessible alt attributes
+
 WHEN I view the heading attributes
+
 THEN they fall in sequential order
+
 WHEN I view the title element
+
 THEN I find a concise, descriptive title
 
 By accomplishing these goals, developers will be able to understand the code better, and the content will be more accesible to those with disabilities. Such considerations will allow for easier coding in the future, if new pages and content must be added, and it will increase the SEO of the website. 
@@ -28,57 +38,55 @@ Through the project, I applied the lessons learned in module 1 on the importance
 
 Now, the website works even better than it used to, and can serve more easily as a template or something to grow from in the future. 
 
-## Table of Contents (Optional)
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+First, I pulled the assignment from the GitHub link listed on Boot Camp Spot. From there, I created a challenges folder, made a challenge-1 folder within it, and there placed the pulled assignment. 
+
+Then, I created my own repository on GitHub named Horiseon, and pushed everything I pulled into this new repository. The link to this repository is below.
+
+[https://github.com/willjduncan/horiseon.git](https://github.com/willjduncan/horiseon.git)
+
+
+ I had to make some adjustments to the files, removing the Develop file and adding a README file, so that when someone uses the link: 
+
+[https://willjduncan.github.io/horiseon/](https://willjduncan.github.io/horiseon/)
+
+it would open up Horiseon rather than this README file. 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The mock-up, whose look should not and did not differ from the final product, is shown below
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![mock-up](/assets/images/mock-up.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+You can use the new, clean code as a template in case a new page needs to be added to the website, or as an example to show new coders what good code looks like. An example of the edited code is below. Note the alternate text, the comments, and the semantic HTML elements. 
+
+![screenshot](/assets/images/coding-screenshot.png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+No classmates or instructors were used in the making of this website. The coding boot camp Professional README Guide found at https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide was used as a template for this README. The WHEN/THEN section of this README was taken directly from the homework assignment Acceptance Criteria. THe Run-Buddy project of Module 1 was used as an example to emulate as I organized Horiseon's website.  The license was picked from [https://choosealicense.com/](https://choosealicense.com/), as suggested by the README Guide aforementioned. 
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License
 
----
+Copyright (c) [2022] [Will Duncan]
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Badges
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
